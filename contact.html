@@ -3,7 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="meta"
+      name="description"
+      content="I am a Fron-end developer in training, currently expanding my knowledge in coding through workshops provided by SheCodes"
+    />
+    <title>Contact Me</title>
     <title>Document</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
@@ -29,11 +35,63 @@
     ></script>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="d-none d-md-block logo"
+            alt="logo image"
+          />
+          <img
+            src="images/small-logo.jpg"
+            class="d-none d-md-none logo"
+            alt="logo image"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Me page">About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="My work page">Work</a>
+          </li>
+          <li class="active">
+            <a href="/contact.html" title="Contact Me page">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="content">
         <h1 class="mb-5">Let's get in touch!</h1>
-        <h3>Email</h3>
-        <p>email to</p>
+        <footer>
+          <div class="social-links d-flex justify-content-center">
+            <a href="#" title="Instagram profile">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a
+              href="https://github.com/softoro"
+              target="_blank"
+              title="GitHub profile"
+            >
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </div>
+          <p class="text-center mt-4 text-muted">
+            This project was coded by Sofia and it is
+            <a
+              href="https://github.com/softoro/portfolio-project"
+              class="project-link"
+              target="_blank"
+              title="github repository"
+              >open-sourced</a
+            >
+          </p>
+        </footer>
       </div>
     </div>
   </body>
