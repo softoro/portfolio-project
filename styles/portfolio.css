@@ -202,4 +202,11 @@ footer .project-link {
     padding: 0;
     text-align: center;
   }
+
+  .profile-pic {
+    width: 200px;
+    height: 250px;
+    display: block;
+    margin: auto;
+  }
 }
